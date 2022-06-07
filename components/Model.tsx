@@ -3,8 +3,8 @@ import { useRef } from 'react';
 import { Mesh } from 'three';
 
 const Model = ({ ...props }): JSX.Element => {
-  const group = useRef<Mesh>(null!);
-  const { nodes, materials } = useGLTF('/scene.gltf');
+  const group = useRef() as any;
+  const { nodes, materials } = useGLTF('/scene.gltf') as any;
 
   return (
     <group ref={group} {...props} dispose={null} scale={8}>
