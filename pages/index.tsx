@@ -33,7 +33,7 @@ const Home: NextPage = () => {
           <h2 className="text-[18px]">Developer</h2>
         </div>
 
-        <div className="w-[100px] h-[100px] rounded-full border-[4px] border-orange relative">
+        <div className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] rounded-full border-[4px] border-orange relative">
           <img
             src="/images/unnamed.png"
             className="rounded-full"
@@ -109,7 +109,9 @@ const Home: NextPage = () => {
           className="text-[18px] text-orange flex justify-start items-center"
           rel="noreferrer"
         >
-          <ImLinkedin />
+          <div className="mr-1">
+            <ImLinkedin />
+          </div>
           @thiago0x01
         </a>
 
@@ -119,7 +121,9 @@ const Home: NextPage = () => {
           className="text-[18px] text-orange flex justify-start items-center"
           rel="noreferrer"
         >
-          <ImTwitter />
+          <div className="mr-1">
+            <ImTwitter />
+          </div>
           @thiago0x01
         </a>
 
@@ -129,7 +133,9 @@ const Home: NextPage = () => {
           className="text-[18px] text-orange flex justify-start items-center"
           rel="noreferrer"
         >
-          <ImGithub />
+          <div className="mr-1">
+            <ImGithub />
+          </div>
           @thiago0x01
         </a>
       </div>
