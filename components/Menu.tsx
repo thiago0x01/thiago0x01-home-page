@@ -1,4 +1,3 @@
-import { ImBrightnessContrast } from 'react-icons/im';
 import ThemeButton from './ThemeButton';
 
 const Menu = (): JSX.Element => {
