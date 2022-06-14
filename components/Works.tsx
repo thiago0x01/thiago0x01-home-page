@@ -19,10 +19,7 @@ const Works = (): JSX.Element => {
         <span className="text-orange font-bold">
           TypeScript, Node.js, PostgreSQL and MongoDB, UI Design
         </span>{' '}
-        with <span className="text-orange font-bold">Figma</span> and too having{' '}
-        <span className="text-orange font-bold">exploring</span> the smart
-        contract development with{' '}
-        <span className="text-orange font-bold">Solidity</span>.
+        with <span className="text-orange font-bold">Figma</span>.
       </p>
     </div>
   );
