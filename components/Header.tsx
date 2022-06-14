@@ -7,7 +7,7 @@ const Header = (): JSX.Element => {
         <h2 className="text-[18px]">Developer</h2>
       </div>
 
-      <div className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] rounded-full border-[4px] border-orange relative">
+      <div className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] rounded-full border-[4px] border-orange relative hidden sm:block">
         <img
           src="/images/unnamed.png"
           className="rounded-full"
