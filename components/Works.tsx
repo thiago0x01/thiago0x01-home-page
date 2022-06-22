@@ -17,7 +17,7 @@ const Works = (): JSX.Element => {
         </span>
         . Too have embracing knowledge on back end development with{' '}
         <span className="text-orange font-bold">
-          TypeScript, Node.js, PostgreSQL and MongoDB, UI Design
+          TypeScript, Node.js, SQL and NoSQL, UI Design
         </span>{' '}
         with <span className="text-orange font-bold">Figma</span>.
       </p>
