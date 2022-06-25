@@ -4,7 +4,7 @@ const Header = (): JSX.Element => {
       <div>
         <h1 className="font-bold text-[36px]">Thiago Machado</h1>
 
-        <h2 className="text-[18px]">Developer</h2>
+        <h2 className="text-[18px]">Front End Developer</h2>
       </div>
 
       <div className="w-[80px] h-[80px] sm:w-[100px] sm:h-[100px] rounded-full border-[4px] border-orange relative hidden sm:block">
