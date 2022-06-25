@@ -13,7 +13,7 @@ const Works = (): JSX.Element => {
         expertise on <span className="text-orange font-bold">front end</span>{' '}
         development using{' '}
         <span className="text-orange font-bold">
-          TypeScript, React and NextJS
+          TypeScript and React
         </span>
         . Too have embracing knowledge on back end development with{' '}
         <span className="text-orange font-bold">
